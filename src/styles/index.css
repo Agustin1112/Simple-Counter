@@ -1,12 +1,37 @@
 
-/* 
+/* src/styles/index.css */
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    color: black;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.bigCounter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    margin-top: 20px;
+    width: 1800px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
 
-*/
+.calendar {
+    margin-right: 10px;
+}
+
+
+.number {
+    margin: 0 15px;
+    min-width: 40px;
+    text-align: center;
+}
